@@ -1,0 +1,11 @@
+#Using end=""
+print("My name is ", end="")
+print("Julia.")
+
+#Using end="\n"
+print("My name is ", end="\n")
+print("Julia.")
+
+#Using "\n"
+print("My name is ", "\n")
+print("Julia.")
