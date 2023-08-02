@@ -9,7 +9,7 @@ a = n + 1
 b = n - 1 
 print( a, b)
 
-# de uma maneiura mais sofisticada ainda
+# in an even more sophisticated way
 
 n = int(input("("Type in an integer:  "))
 a = n + 1
