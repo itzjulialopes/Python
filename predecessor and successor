@@ -1,0 +1,17 @@
+print("Type in an integer: ")
+numero = int(input())
+print(numero - 1, numero + 1 )
+
+#or, in a more sophisticated way
+
+n = int(input("("Type in an integer: "))
+a = n + 1
+b = n - 1 
+print( a, b)
+
+# de uma maneiura mais sofisticada ainda
+
+n = int(input("("Type in an integer:  "))
+a = n + 1
+b = n - 1 
+print("the predecessor is {}, and the successor is {}".format(n,a,b))  
