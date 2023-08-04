@@ -1,0 +1,19 @@
+import math
+reais=float(input("Digite o valor em reais: "))
+dolar = reais/4.87
+won = reais/0.0037
+euro = reais/5.37
+
+resposta=input("Selecione a opção dolar, won ou euro: ")
+
+if resposta == "won":
+ print("O valor em won é ₩{:.2f}".format(won))
+
+elif resposta == "dolar": 
+ print("O valor em dólares é US${:.2f}".format(dolar))
+
+elif resposta == "euro":
+ print("O valor em euro é €{:.2f}".format(euro))
+
+else:
+ print("Digite sua opção novamente")
